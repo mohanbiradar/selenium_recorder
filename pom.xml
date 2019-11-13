@@ -28,8 +28,8 @@
 		<dependency>
 			<groupId>net.sf.json-lib</groupId>
 			<artifactId>json-lib</artifactId>
-			<version>2.4-jdk15</version>
-			<type>jar</type>
+			<version>2.4</version>
+			<classifier>jdk15</classifier>
 		</dependency>
 
 		<dependency>
@@ -136,9 +136,6 @@
 				<artifactId>maven-jar-plugin</artifactId>
 				<version>3.0.2</version>
 				<configuration>
-					<encoding>UTF-8</encoding>
-					<source>1.8</source>
-					<target>1.8</target>
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
